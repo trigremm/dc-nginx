@@ -33,7 +33,7 @@ server {
         proxy_redirect   off;
     }
     location /static/ {
-        alias /home/ubuntu/dc-nginx-demo/static/;
+        alias /home/ubuntu/dc-nginx/static/;
         expires 30d;
     }
 }
